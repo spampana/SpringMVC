@@ -1,0 +1,57 @@
+<settings>
+<profiles>
+    <profile>
+        <id>space</id>
+        <repositories>
+            <repository>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+                <id>s1-releases</id>
+                <name>System One Releases</name>
+                <url>http://some.server/mvn2repo/releases</url>
+            </repository>
+            <repository>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+                <id>s1-3rdParty</id>
+                <name>System One 3rd Party Releases</name>
+                <url>http://some.server/mvn2repo/3rdParty</url>
+            </repository>
+            <repository>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+                <id>central</id>
+                <url>http://repo1.maven.org/maven2</url>
+            </repository>
+        </repositories>
+        <pluginRepositories>
+            <pluginRepository>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+                <id>central</id>
+                <url>http://repo1.maven.org/maven2</url>
+            </pluginRepository>
+        </pluginRepositories>
+    </profile>
+</profiles>
+
+<activeProfiles>
+    <activeProfile>space</activeProfile>
+</activeProfiles>
+</settings>
