@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mkyong.common</groupId>
-	<artifactId>SpringMVCJSON</artifactId>
+	<artifactId>SpringMVCAnnJSONXMLResp</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>SpringMVC Json Webapp</name>
@@ -45,7 +45,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>SpringMVCJSON</finalName>
+		<finalName>SpringMVCAnnJSONXMLResp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
